@@ -2,10 +2,7 @@ package com.group_31;
 
 import java.util.ArrayList;
 import java.util.List;
-import java.util.Optional;
 import java.util.Scanner;
-import java.util.stream.Collectors;
-import java.util.stream.IntStream;
 
 public class BlackJack {
     static List<Player> players = new ArrayList<>(List.of(new Player("Jen"), new Player("Emma"), new Player("Martina")));

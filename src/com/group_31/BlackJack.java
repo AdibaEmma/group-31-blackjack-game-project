@@ -4,6 +4,7 @@ import java.util.ArrayList;
 import java.util.List;
 import java.util.Optional;
 import java.util.Scanner;
+import java.util.stream.Collectors;
 import java.util.stream.IntStream;
 
 public class BlackJack {
@@ -59,6 +60,7 @@ public class BlackJack {
                     return;
                 } else {
                     System.out.println("go bust");
+                    player.strategy = Strategy.GO_BUST;
                     exemptedPlayers.add(player);
                 }
             }
